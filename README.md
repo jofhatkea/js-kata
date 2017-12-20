@@ -10,3 +10,4 @@ document.querySelector("h1").addEventListener('click', ()=>{
     console.log("hi mom")
 })
 ```
+git credential-osxkeychain erase host=github.com protocol=https
