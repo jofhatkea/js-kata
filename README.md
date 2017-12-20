@@ -1,5 +1,5 @@
 # JS-KATA
-## Week 19, Tuesday
+## Week 19, Wednesday
 
 Read chapter x to x in Novice to Ninja (N2N)
 
