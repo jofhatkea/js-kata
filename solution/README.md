@@ -1,0 +1,1 @@
+# Solutions for W19Tuesday
