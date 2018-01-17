@@ -19,4 +19,4 @@ In each branch there'll be a README.md file containing the instructions for the 
 The easy way to read the `.md` file is by going to your repo at github.com
 
 
-TODO what about changes in the main repo, how will that get propagated to the students forked versions?
+TODO what about changes in the main repo, how will that get propagated to the students forked versions? kræver nok merge, og hvad hvis vi gradvist tilføjer opgaver?
