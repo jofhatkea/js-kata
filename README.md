@@ -11,7 +11,7 @@ You'll see a lot of urls, looking like: `remotes/origin/something` we're looking
 
 4. "Track" the remote branch you wish to work with: `git checkout something` (the first time it'll be `git checkout W19Monday`)
 
-5. Now you're ready to actually do this days exercises. Tomorrow you have already forked the repository, so you can go directly to step 3/4 (like `git checkout W19Tuesday`)
+5. Now you're ready to actually do this days exercises. Tomorrow you have already forked the repository, so you can go directly to step 3 or 4 (like `git checkout W19Tuesday`)
 
 ## About the exercises
 In each branch there'll be a README.md file containing the instructions for the excerise, as well as a solution folder which is where you'll put your solution.
