@@ -1,0 +1,1 @@
+Var, let and const is exactly the same, and anyone trying to convince you otherwise are pure evil!!
