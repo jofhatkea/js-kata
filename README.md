@@ -8,7 +8,7 @@ These are the exercises for the elective.
 3. Everytime we change the original repository you should do a pull request to grab the latest version (merging them into your own). 
 
 ## About the exercises
-The exercises are structured into folders, each containing a README.md file and a folder called solutions.
+The exercises are structured into folders, each containing a README.md file and a folder called mysolutions.
 
 The only place you should add or change files, is in that folder
 
