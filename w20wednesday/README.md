@@ -6,7 +6,7 @@
 Now it's your turn.
 
 ### Your task
-Look at the following example https://jofhatkea.github.io/js-kata/w20wednesday/materials/index.html
+Look at the following example [https://jofhatkea.github.io/js-kata/w20wednesday/materials/index.html](https://jofhatkea.github.io/js-kata/w20wednesday/materials/index.html)
 
 Note: This has only been tested in Chrome
 
