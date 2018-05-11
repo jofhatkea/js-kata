@@ -1,7 +1,8 @@
 # JS-KATA
 These are the exercises for the elective.
 
-1. Start by forking this repo to make it your own.
+1. Start by forking this repo to make it your own. 
+![the fork button](gfx/fork_button.png "The Fork Button")
 
 2. Then clone it using something like `git clone https://github.com/yourgithubhandle/js-kata.git`
 
