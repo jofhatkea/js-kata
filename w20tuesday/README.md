@@ -5,7 +5,7 @@ You have previously created a bit of code to create a "Spongebob mockified" vers
 
 Your task now, is to create a function called `mockify` that receives a string, and returns a mocified version of that string.
 
-The .html and .js files have been prepared for you ...
+The .html and .js files have been prepared for you - copy everything from materials to mysolution (`cp ./materials/* ./mysolution/`)
 
 #### Testing
 Call your function in a console.log, like 
