@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS variables and JavaScript</title>
+  <link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+<body>
+
+    <h1>Color theme:</h1>
+
+    <div class="colors">
+        <div class="colorbox color1"></div>
+        <div class="colorbox color2"></div>
+        <div class="colorbox color3"></div>
+        <div class="colorbox color4"></div>
+        <div class="colorbox color5"></div>
+    </div>
+
+    <p>Select basecolor:</p>
+    
+    <ul id="colorselector">
+        <li>colorA</li>
+        <li>colorB</li>
+        <li>colorC</li>
+        <!-- TODO: Add more colors - also, improve the names -->
+    </ul>
+
+    <hr>
+    <!-- TODO: This will work, when the colors are added in the CSS -->
+    <h2>Colors with names</h2>
+    <div class="colors">
+        <div class="colorbox" style="background-color: var(--color-bright);"></div>
+        <div class="colorbox" style="background-color: var(--color-brighter);"></div>
+        <div class="colorbox" style="background-color: var(--color-mid);"></div>
+        <div class="colorbox" style="background-color: var(--color-darker);"></div>
+        <div class="colorbox" style="background-color: var(--color-dark);"></div>
+    </div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
