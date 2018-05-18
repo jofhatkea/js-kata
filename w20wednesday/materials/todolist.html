@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>To-do list</title>
+    <script src="Speak.js"></script>
 </head>
 <body>
     <h1>My To-do list</h1>
@@ -17,5 +18,18 @@
         <li>Ignore the kids</li>
         <li>Feed the cat</li>
     </ul>
+    <button>Press me :-)</button>
+
+    <script>
+        let speech = new Speak();
+        let voice = document.querySelector('ul').textContent;
+    
+        
+    document.querySelector("button").addEventListener("click",e=>{
+        speech.setVoice(59)
+        speech.speak(voice)
+        //console.log(speech.getVoices(true))
+    })
+    </script>
 </body>
 </html>
