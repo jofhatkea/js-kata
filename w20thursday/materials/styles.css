@@ -1,0 +1,70 @@
+:root {
+    --basecolor: 20;
+    /* TODO: Make these color-names, that uses HSL with basecolor ...
+        --color-bright
+        --color-brighter
+        --color-mid
+        --color-darker
+        --color-dark
+    */
+}
+
+body {
+    text-align: center;
+    background: var(--color-dark);
+    color: var(--color-bright);
+    font-family: 'helvetica neue', sans-serif;
+    font-weight: 100;
+    font-size: 50px;
+}
+    
+
+.colors {
+    border: 2px solid black;
+    display: flex;
+    align-items: stretch;
+    height: 10vw;
+}
+
+.colors .colorbox {
+    flex-grow: 1;
+}
+
+.color1 {
+ 
+    background-color: hsl(var(--basecolor), 50%, 72%);  
+}
+
+.color2 {
+    background-color: hsl(var(--basecolor), 50%, 55%); 
+}
+
+.color3 {
+    background-color: hsl(var(--basecolor), 50%, 40%); 
+}
+
+.color4 {
+    background-color: hsl(var(--basecolor), 50%, 25%); 
+}
+
+.color5 {
+    background-color: hsl(var(--basecolor), 50%, 11%); 
+}
+
+
+h1 {
+    color: var(--color-bright);
+}
+
+h2 {
+    color: var(--color-mid);
+}
+
+ul#colorselector {
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
+ul#colorselector li {
+    cursor: pointer;
+}
