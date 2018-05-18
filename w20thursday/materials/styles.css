@@ -1,6 +1,8 @@
 :root {
     --basecolor: 20;
-    /* TODO: Make these color-names, that uses HSL with basecolor ...
+    /* TODO:
+        (For the additional task at the very end):
+        Make these color-names, that uses HSL with basecolor ...
         --color-bright
         --color-brighter
         --color-mid
