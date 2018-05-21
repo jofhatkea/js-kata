@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Jumping text</title>
+    <link rel="stylesheet" href="jumping.css" type="text/css">
+</head>
+<body>
+    <h1>Jumping text</h1>
+    <p id="demo" class="jump">
+        <span>T</span><span>h</span><span>i</span><span>s</span> <span>i</span><span>s</span> <span>t</span><span>h</span><span>e</span> <span>d</span><span>e</span><span>m</span><span>o</span>
+    </p>
+
+    <h2>Solution</h2>
+    <p>The following texts should behave like the demo</p>
+    <p class="jumping">This text also jumps</p>
+    <p></p>
+    <p class="jumping">And this one jumps when the task is completed</p>
+    <p class="jumping">And also this one</p>
+    <p>But this text stays put!</p>
+    
+    <script src="jumping.js"></script>
+    <script>
+        jumping_init();
+    </script>
+</body>
+</html>
