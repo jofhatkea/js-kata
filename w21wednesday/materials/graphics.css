@@ -1,0 +1,52 @@
+body {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+#stage {
+    position: relative;
+    background-color: rgb(142, 142, 142);  
+    height: 100vh; 
+    width: 100vw;
+
+    overflow: hidden;
+    
+}
+
+#foreground {
+    position: absolute;
+    width: 100vw;
+    height: 56.25vw;
+
+    left: 0;
+    top: 0;
+
+    background-image: url(images/foreground.png);
+    background-size: 100%;
+
+    transform: scale(1.4);
+}
+
+#middle {
+    position: absolute;
+    width: 100vw;
+    height: 56.25vw;
+
+    left: 0;
+    top: 0;
+
+    background-image: url(images/parrot.png);
+    background-size: 100%;
+}
+
+#background {
+    position: absolute;
+    width: 100vw;
+    height: 56.25vw;
+
+    background-image: url(images/background.jpg);
+    background-size: 100%;
+
+    transform: scale(1.4);
+}
